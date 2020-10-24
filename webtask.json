@@ -2,13 +2,13 @@
     "title": "Sample Extension",
     "name": "sample-extension",
     "version": "1.0.0",
-    "author": "auth0",
+    "author": "Aaron Job",
     "description": "This is a sample extension",
     "type": "application",
-    "repository": "https://github.com/auth0/sample-extension",
+    "repository": "https://github.com/typebox/sample-extension",
     "keywords": [
       "auth0",
       "extension"
     ],
-    "codeUrl": "https://raw.githubusercontent.com/auth0/sample-extension/master/index.js"
+    "codeUrl": "https://raw.githubusercontent.com/typebox/sample-extension/master/index.js"
   }
