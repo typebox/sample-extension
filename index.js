@@ -1,7 +1,8 @@
 var express  = require('express');
 var app      = express();
+var hooks    = express.Router();
 
-app.use((req, res, next) => {
+hooks.use(function (req, res, next) {
   console.log(req);
   next();
 });
