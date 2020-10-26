@@ -1,5 +1,4 @@
 var express  = require('express');
-var app      = express();
 var hooks    = express.Router();
 
 hooks.use(function (req, res, next) {
@@ -8,4 +7,4 @@ hooks.use(function (req, res, next) {
 });
 
 
-module.exports = app;
+module.exports = hooks;
