@@ -1,10 +1,9 @@
-var express = require('express')
-var app = express()
+var express    = require('express');
+var dev        = express.Router();
 
-app.get( function (req, res, next) {
+dev.use(function (req, res, next) {
   console.log(req);
   next();
-})
+});
 
-
-module.exports = app;
+module.exports = dev;
