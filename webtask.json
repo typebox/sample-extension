@@ -1,7 +1,7 @@
   {
     "title": "Sample Extension",
     "name": "sample-extension",
-    "version": "1.5.0",
+    "version": "1.6.0",
     "author": "Aaron Job",
     "description": "This is a sample extension",
     "type": "application",
@@ -9,6 +9,5 @@
     "keywords": [
       "auth0",
       "extension"
-    ],
-    "codeUrl": "https://raw.githubusercontent.com/typebox/sample-extension/master/index.js"
+    ]
   }
